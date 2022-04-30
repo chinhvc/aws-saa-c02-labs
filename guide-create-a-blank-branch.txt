@@ -1,0 +1,6 @@
+git checkout --orphan dev_release
+git status
+git rm --cached -r .
+git log
+git commit --allow-empty -m "Initial orphan branch"
+git push -u origin dev_release
